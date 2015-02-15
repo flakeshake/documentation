@@ -6,7 +6,7 @@ Please also read the section on [Module booting and flashing the eMMC](cm-design
 
 ## Steps to flash the eMMC on a Compute Module
 
-You need a host Linux system; a Raspberry Pi will do.
+You need a host Linux system; a Raspberry Pi will do.  A Mac will not, there is a bug in the BCM2835 bootloader which means we return slightly the wrong information, Windows and Linux don't care and carry on regardless (it's completely benign) but MacOS drops the packet
 
 **On your Compute Module IO Board:**
 
@@ -40,7 +40,7 @@ sudo make install
 Run the usbboot tool and it will wait for a connection:
 
 ```bash
-sudo ./rpiboot
+sudo rpiboot
 ```
 
 Now plug the host machine into the Compute Module IO Board USB slave port (J15) and power on the CMIO board. The usbboot tool will discover the Compute Module and send boot code to allow access to the eMMC. Once complete you will see a new device appear; this is commonly /dev/sda but it could be another location such as /dev/sdb, so check in /dev/ before running rpiboot so you can see what changes.
