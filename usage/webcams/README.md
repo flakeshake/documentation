@@ -98,11 +98,17 @@ You may experience poor quality pictures with a USB webcam, such as this acciden
 
 ![Bad webcam picture](images/jack.jpg)
 
-Some webcams are more reliable than others, but this sort of issue may occur with poor quality webcams. If the problem persists, ensure your system is [up to date](../../raspbian/updating.md). Also try other webcams, but you'll get the best performance from the Raspberry Pi [camera module](http://www.raspberrypi.org/help/camera-module-setup/).
+Some webcams are more reliable than others, but this sort of issue may occur with poor quality webcams. If the problem persists, ensure your system is [up to date](../../raspbian/updating.md). Also try other webcams, but you'll get the best performance from the Raspberry Pi [camera module](https://www.raspberrypi.org/help/camera-module-setup/).
 
 ## Bash script
 
-You can write a Bash script which takes a picture with the webcam. To create a script, open up your editor of choice and write the following example code:
+You can write a Bash script which takes a picture with the webcam. The script below saves the images in the `/home/pi/webcam` directory, so create the `webcam` subdirectory first with:
+
+```bash
+mkdir webcam
+```
+
+To create a script, open up your editor of choice and write the following example code:
 
 ```bash
 #!/bin/bash

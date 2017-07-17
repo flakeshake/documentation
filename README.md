@@ -1,6 +1,8 @@
 # Raspberry Pi Documentation
 
-This is the official documentation for the Raspberry Pi, written by the [Raspberry Pi Foundation](http://raspberrypi.org) with community contributions.
+[![Build Status](https://travis-ci.org/raspberrypi/documentation.svg?branch=master)](https://travis-ci.org/raspberrypi/documentation)
+
+This is the official documentation for the Raspberry Pi, written by the [Raspberry Pi Foundation](https://www.raspberrypi.org/) with community contributions.
 
 ## Contents
 
@@ -20,8 +22,6 @@ This is the official documentation for the Raspberry Pi, written by the [Raspber
     - Information about the recommended operating system for Raspberry Pi
 - [Hardware](hardware/README.md)
     - Technical specifications about the Raspberry Pi hardware and the camera module
-- [Troubleshooting](troubleshooting/README.md)
-    - Got a problem with your Pi? Start here
 
 ## Contributions
 
@@ -35,8 +35,8 @@ See our [contributing policy](CONTRIBUTING.md).
 
 Unless otherwise specified, everything in this repository is covered by the following licence:
 
-[![Creative Commons Attribution-ShareAlike 4.0 International](http://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
+[![Creative Commons Attribution-ShareAlike 4.0 International](https://licensebuttons.net/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
-***Raspberry Pi Documentation*** by the [Raspberry Pi Foundation](http://www.raspberrypi.org) is licensed under a [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
+***Raspberry Pi Documentation*** by the [Raspberry Pi Foundation](https://www.raspberrypi.org/) is licensed under a [Creative Commons Attribution 4.0 International Licence](http://creativecommons.org/licenses/by-sa/4.0/).
 
 Based on a work at https://github.com/raspberrypi/documentation
